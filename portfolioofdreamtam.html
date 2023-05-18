@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PortFolio GM</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+      background-color: #fff;
+    }
+    
+    h2 {
+      margin-top: 0;
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    .presentation {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    
+    .presentation-text {
+      flex-grow: 1;
+      margin-right: 20px;
+    }
+    
+    .presentation-image {
+      flex-basis: 150px;
+      flex-shrink: 0;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    
+    .presentation-image img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .portfolio {
+      text-align: center;
+    }
+    
+    .portfolio-item {
+      display: inline-block;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+    
+    .portfolio-item img {
+      max-width: 100%;
+      height: auto;
+      margin-right: 20px;
+    }
+    
+    .portfolio-item-description {
+      flex-grow: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Molino Giuseppe Portfolio's</h1>
+  </header>
+  
+  <main>
+    <section class="presentation">
+      <div class="presentation-text">
+        <h2>Chi sono:</h2>
+        <p>Benvenuto nel mio sito PortFolio, mi chiamo Giuseppe Molino ho 16 anni.... elettronica e robotica sono il mio pane quotidiano!</p>
+      </div>
+      <div class="presentation-image">
+        <img src="foto.jpg" alt="Foto">
+      </div>
+    </section>x
+    
+    <div class="portfolio">
+      <h2>I miei progetti</h2>
+      
+      <section class="portfolio-item">
+        <img src="immagine1.jpg" alt="Progetto 1">
+        <div class="portfolio-item-description">
+          <h3>Progetto 1</h3>
+          <p>Descrizione del progetto 1.</p>
+          <p>Altre informazioni sul progetto 1.</p>
+        </div>
+      </section>
+      
+      <section class="portfolio-item">
+        <img src="immagine2.jpg" alt="Progetto 2">
+        <div class="portfolio-item-description">
+          <h3>Progetto 2</h3>
+          <p>Descrizione del progetto 2.</p>
+          <p>Altre informazioni sul progetto 2.</p>
+        </div>
+      </section>
+      
+      <section class="portfolio-item">
+        <img src="immagine3.jpg" alt="Progetto 3">
+        <div class="portfolio-item-description">
+          <h3>Progetto 3</h3>
+          <p>Descrizione del progetto 3.</p>
+          <p>Altre informazioni sul progetto 3.</p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html
